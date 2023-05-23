@@ -12,7 +12,6 @@ from alhazen_formalizations.calculator import (
 )
 
 
-
 class TestAlhazen(unittest.TestCase):
     def test_initialization(self):
         alhazen = Alhazen(
