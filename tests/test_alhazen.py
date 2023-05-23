@@ -10,8 +10,7 @@ from alhazen_formalizations.calculator import (
     prop,
     grammar_alhazen as grammar,
 )
-
-
+# this is new
 class TestAlhazen(unittest.TestCase):
     def test_initialization(self):
         alhazen = Alhazen(
